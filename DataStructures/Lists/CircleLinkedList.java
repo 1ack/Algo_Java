@@ -17,7 +17,7 @@ public class CircleLinkedList<E>{
          head = new Node<E>(null,head); 
          size = 0;
      }
-      // getter for the size... needed because size is private.
+      // getter for the size.... needed because size is private.
      public int getSize(){ return size;} 
      // for the sake of simplistiy this class will only contain the append function or addLast other add functions can be implemented however this is the basses of them all really.
      public void append(E value){ 
